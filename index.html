@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	  <title>Assignment#2 css and bootstrap</title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	  
+</head>
+<head>
+	<style>
+	body 
+	{
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+    }
+  p 
+  {
+  font-size: 16px;
+  }
+  .margin
+  {
+  margin-bottom: 45px;
+  }
+	.fa {
+  padding: 40px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 60%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+	
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+	.cont:hover .overlay
+	{
+	
+	  opacity: 5;
+	}
+	.overlay 
+	{
+	  position: absolute;
+	  top: 0;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	  height: 100%;
+	  width: 100%;
+	  opacity: 0;
+	  transition: .5s ease;
+	  background-color: #669999;
+	}
+	.text
+	{
+	  color: white;
+	  font-size: 20px;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  -ms-transform: translate(-50%, -50%);
+	}
+	.image
+	{
+	  display: block;
+	  hieght:auto;
+	  
+	  border-radius: 8px;
+	}
+	.container-fluid
+	{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    }
+	
+	.bg-1 
+	{ 
+		background-color: #28a4a4; 
+		color: #ffffff;
+    }
+	.bg-2
+	{
+		background-color:#004d4d ; 
+		color: #ffffff;
+		font-size: 20px;
+	
+	}
+	
+	.bg-3 
+	{ 
+      background-color: #c2d6d6; 
+      color: #555555;
+    }
+	.bg-4
+	{
+	  background-color: #75a3a3; 
+      color: #000000;
+	
+	}
+	.bg-5
+	{
+	  background-color: #196666; 
+     color: #ffffff;
+	}
+	.bg-6
+	{
+	  background-color: white; 
+     color: #555555;
+	
+	}
+	.bg-7
+	{
+    background-color: #474e5d;
+    color: #ffffff;
+
+	}
+	.a
+	{
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+	}
+	.b
+	{
+	text-decoration: underline;
+	}
+	.c
+	{
+	font-size: 20px;
+	}
+	
+	
+		/* unvisited link */
+	a:link {
+		color: ;
+	}
+
+	/* visited link */
+	a:visited {
+		color: white;
+	}
+
+	/* mouse over link */
+	a:hover {
+		color: hotpink;
+	}
+
+	/* selected link */
+	a:active {
+		color: red;
+	}
+	.navbar
+	{
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 14px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover
+  {
+      color: #33cccc !important;
+	  
+  }
+  
+  
+	
+	</style>
+</head>
+
+<body>
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#top">Home</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#con">Contact</a></li>
+        <li><a href="#edu">Education</a></li>
+        <li><a href="#pro">Projects</a></li>
+		<li><a href="#awar">Awards</a></li>
+		<li><a href="#hob">Hobbies</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+	<div id="top" class="container-fluid text-center bg-1">
+		<h3>Who Am I?</h3>
+		<img src="dp.jpg" class="img-circle" style= "height:10% ; width:10%">
+		<h3>I'm Muntaha Zaigham</h3>
+	</div>
+	<div id="con" class="container-fluid text-center bg-2">
+	    <h2 class="a"> CONTACT INFORMATION: </h2>
+		<hr>
+		<p> <p class="b">Address:</p> House no. 21 ,abcd street, Lahore.</p>
+		<p><p class="b">Contact:</p> (0321) 987 6543 </p>
+		<p><p class="b">Email:</p> l164387@lhr.nu.edu.pk &nbsp;
+			<a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=l164387@lhr.nu.edu.pk&tf=1" target="_blank">
+			
+				<i class="glyphicon glyphicon-envelope">
+				</i> 
+			</a>
+		</p>
+		
+		
+	</div>
+	<div id="edu" class="container-fluid  bg-3 ">
+		  <h2 class="a">EDUCATION : </h2>
+		<hr>
+	
+		<p>
+		
+			<ol  type="1">
+
+			
+				&nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp <li>
+					<p> 
+						<a href="http://www.nu.edu.pk/" target="_blank" title="Go to university webpage ">
+						NATIONAL UNIVERSITY OF COMPUTER & EMERGING SCIENCES (FAST-NU), LAHORE 
+						</a>						
+						&nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 2016-2020 <br/>
+							
+							
+						<small>COMPUTER SCIENCE DEPARTMENT
+						&nbsp  &nbsp &nbsp
+						BS (Computer Science)</small><br/>
+
+						<ul style="list-style-type:disc" >
+							 <li> 
+							 Under graduate 
+							 </li>
+							 <li>
+							 Constructed basic concepts regarding graphic designing through workshop
+							 </li>
+							 <li>
+							 Built concepts of Python language through a workshop and conference (Pycon)
+							 </li>
+							 <li>
+							 Developed an overview of PHP language through a Workshop
+							 </li>
+						  
+
+						</ul>
+					</p>
+				</li>
+				<li>
+					 <p>
+					 <a href="http://kips.edu.pk/"  target="_blank" title="Go to college webpage ">
+					 KIPS COLLEGE FOR GIRLS, JOHAR TOWN LAHORE	
+					 </a>
+					 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+					 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+					 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp   2014-2016 <br/>
+					 <small>F.Sc. (Pre-Engineering)</small>
+					 </p>
+				</li>
+				<li>
+					 <p>
+					 <a href="http://www.educators.edu.pk/"  target="_blank" title="Go to School webpage ">
+					 THE EDUCATORS MUHAMMADDAN CAMPUS, JOHAR TOWN LAHORE	
+					 </a>
+					 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+					 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  
+		 
+					 2014 <br/>
+					 <small>Matric (Computer Science)</small>
+					 </p>
+				</li>
+
+
+
+			</ol>	
+		 </p>
+		
+		
+					
+	</div>
+	<div id="pro" class="container-fluid  text-center bg-4">    
+	  
+	  
+	  
+	  
+	
+	  <h2 class="a">PROJECTS :</h2><hr>
+		  <div class="row">
+				<div class="col-sm-3">
+				  <p class="b"><strong>Aunty Math:</strong></p>
+				  
+				  
+				  <div class="cont">
+				  <img src="http://gifimage.net/wp-content/uploads/2017/10/maths-gif-7.gif" alt="Image"  style="display:inline" class="image" width="350" height="300" >
+						<div class="overlay">
+		                  <div class="text">A Human-like Chatter Bot who gives answers to all Mathematical problems assigned to it.I developed it using c++ language.</div>
+	                    </div>
+				  </div>
+				</div>
+				<div class="col-sm-3"> 
+				  <p class="b"><strong>Tetris Game:</strong></p>
+				  
+				  <div class="cont">
+				  <img src="https://www.ntaso.com/wp-content/uploads/2013/12/no-delay-moving1.gif" alt="Image"  style="display:inline" class="image" width="350" height="300" >
+						<div class="overlay">
+		                  <div class="text">Tetris is a tile-matching puzzle video game.I developed it using c++ language.</div>
+	                    </div>
+				  </div>
+				</div>
+				<div class="col-sm-3"> 
+				  <p class="b"><strong>Brick-Breaking Game:</strong></p>
+				  
+				  <div class="cont">
+				  <img src="https://robotwhale.files.wordpress.com/2014/06/breakout.gif" alt="Image" style="display:inline" class="image" width="350" height="300" >
+					  <div class="overlay">
+							  <div class="text">In this,we remove groups of bricks of the same color until they are all gone.I developed it using assembly language.</div>
+							</div>
+					  </div>
+				</div>
+				<div class="col-sm-3"> 
+				  <p class="b"><strong>Movie Ticketing Website:</strong></p>
+				    
+				  <div class="cont">
+				  <img src="http://londontheatrebookings.com/wp-content/uploads/2017/04/best-offers.gif" alt="Image" style="display:inline" width="350" height="300" class="image" >
+					  <div class="overlay">
+								  <div class="text">This Website was built for online ticketing system.I developed it using asp.net,javascript,css,html,mySQL.</div>
+								</div>
+						  </div>
+				  </div>
+				</div>
+		  </div>
+	
+	
+<div id="awar" class="container-fluid text-center bg-5">
+	    <h2 class="a"> AWARDS AND CERTIFICATION: </h2>
+		<hr>
+			<p class="c"style="inline">
+			 <span class="glyphicon glyphicon-hand-right"></span> 
+			 Team member at decor department in Nuces Media Group Society.     
+			
+			</p>
+			<p class="c" style="inline"> 
+			 <span class="glyphicon glyphicon-hand-right"></span>
+			 Volunteered at Softec office.      
+			 
+			</p>
+			<p class="c" style="inline"> 
+			 <span class="glyphicon glyphicon-hand-right"></span>
+			 Scored good in CEATS MATHEMATICS competition.       
+			 
+			</p>
+			<p class="c" style="inline"> 
+			 <span class="glyphicon glyphicon-hand-right"></span>
+			 Took part in ACM's Programming Competition.      
+			 
+			</p>
+		
+		
+	</div>	
+
+
+<div id="hob" class="container-fluid text-center bg-6">
+	<h2 class="a"> HOBBIES AND INTERESTS: </h2>
+	
+	<hr>
+	
+	<p>
+	<p class="c" style="inline">
+	<span class="glyphicon glyphicon-list-alt"></span>
+	Blogging.
+	</p>
+	</p>
+	
+	<p>
+	<p class="c" style="inline">
+	 <span class="glyphicon glyphicon-book"></span>
+	Reading.
+	</p>
+	</p>
+	
+	<p>
+	<p class="c" style="inline">
+	<span class="glyphicon glyphicon-picture"></span>
+	Gardening.
+	</p>
+	</p>
+	
+	<p>
+	<p class="c" style="inline">
+	<span class="glyphicon glyphicon-triangle-right"></span>
+	Playing Badminton. 
+	</p>
+	</p>
+	
+	<p>
+	<p class="c" style="inline">
+	<span class="glyphicon glyphicon-music"></span>
+	Listening music. 
+	</p>
+	</p>
+	
+
+</div>
+	
+	  
+<footer class="container-fluid bg-7 text-center">
+  
+  <a href="https://www.facebook.com/muntaha.butt.94" target="_blank" class="fa fa-facebook"></a>
+  
+</footer>
+	
+	
+	
+	
+	
+	
+</body>
+</html>
